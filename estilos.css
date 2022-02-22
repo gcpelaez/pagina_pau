@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+/* -----------   header   ------------- */
+
+header {
+    padding: 10px 25px;
+    width: 100%;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+header .logo{
+    border: 1px black solid;
+}
+
+header nav{
+    border: 1px black solid;
+}
+
+/* ------------  main  --------------*/
+
+
+.presentacion {
+    background-color: blueviolet;
+    padding: 10%;
+    height: 50px;
+}
+
+.sobrenos {
+    background-color: aqua;
+    padding: 10%;
+    height: 50px;
+}
+
+.proyectos{
+    background-color: brown; 
+    padding: 10%;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+}
+
+.proyectos div {
+    width: 70%;
+    height: 50px;
+    margin: 3%;
+    border: 1px black solid;
+}
+
+.comotrabajamos {
+    padding: 10%;
+    height: 50px;
+}
+
+.contacto{
+    background-color: blue;
+    padding: 10%;
+    height: 50px;
+}
+
+/* ---------- footer  ------------ */
+
+footer{
+    background-color: green;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around}
+
+
+
+
+
+
+
+
