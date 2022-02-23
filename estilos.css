@@ -13,6 +13,7 @@ header {
     background-color: cadetblue;
     display: flex;
     justify-content: space-between;
+    position: fixed;
 }
 
 header .logo{
@@ -28,19 +29,26 @@ header nav{
 
 .presentacion {
     background-color: blueviolet;
-    padding: 10%;
-    height: 50px;
+    padding: 3%;
+    height: 200px;
+}
+
+/*OJO ESTO DE LA 36 A LA 40 */
+
+section{
+    display: flex;
+    justify-content: center;
 }
 
 .sobrenos {
     background-color: aqua;
-    padding: 10%;
-    height: 50px;
+    padding: 3%;
+    height: 250px;
 }
 
 .proyectos{
     background-color: brown; 
-    padding: 10%;
+    padding: 3%;
     display: flex;
     align-items: center;
     flex-flow: column;
@@ -54,25 +62,45 @@ header nav{
 }
 
 .comotrabajamos {
-    padding: 10%;
-    height: 50px;
+    padding: 3%;
+    height: 200px;
 }
 
 .contacto{
     background-color: blue;
-    padding: 10%;
-    height: 50px;
+    padding: 3%;
+    height: 200px;
+}
+
+/* ----- titulo ----- */
+
+/* OJO width del titulo nuestros proyectos esta distinto*/
+
+.titulo {
+    text-align: center;
+    font-size: large;
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding: 2%;
+    width: fit-content;
+    height: fit-content !important;
+    border-style: dashed solid !important;
+    border-width: thick !important;
 }
 
 /* ---------- footer  ------------ */
 
 footer{
     background-color: green;
+    padding: 1%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around}
+    justify-content: space-around;
+}
 
-
+footer div {
+    margin: 1%;
+}
 
 
 
