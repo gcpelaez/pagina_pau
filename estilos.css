@@ -30,7 +30,17 @@ header nav{
 .presentacion {
     background-color: blueviolet;
     padding: 3%;
-    height: 200px;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+}
+
+.carrusel{
+    width: 50%;
+}
+.carrousel-item img {
+    height: 100px;
+    width: 50%;
 }
 
 /*OJO ESTO DE LA 36 A LA 40 */
@@ -56,9 +66,8 @@ section{
 
 .proyectos div {
     width: 70%;
-    height: 50px;
+    
     margin: 3%;
-    border: 1px black solid;
 }
 
 .comotrabajamos {
